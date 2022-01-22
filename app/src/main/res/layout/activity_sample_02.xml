@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:auandroid="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:hint="@android:string/autofill"
+        tools:targetApi="o_mr1"
+        android:autofillHints="text"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:hint="@android:string/autofill"
+        tools:targetApi="o_mr1"
+        android:autofillHints="textPersonName"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no"
+        android:autofillHints="phone"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no"
+        android:autofillHints="number"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:importantForAutofill="no"
+        android:autofillHints="textPassword"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints=""
+        auandroid:autofillHints="textEmailAddress"/>
+
+
+    <CalendarView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
